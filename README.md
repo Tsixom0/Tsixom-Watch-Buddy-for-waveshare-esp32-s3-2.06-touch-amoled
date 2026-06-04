@@ -1,7 +1,7 @@
 # TsixomAIWatch Buddy v1.0 & v2.0
 
-> **Premium ESP32-S3 AMOLED AI Smartwatch Firmware**  
->  [Get v2 here](https://ko-fi.com/s/7e4864a32d) ☕
+# Get V2 here
+>  (https://ko-fi.com/s/7e4864a32d) ☕
 ---
 
 ## Preview
