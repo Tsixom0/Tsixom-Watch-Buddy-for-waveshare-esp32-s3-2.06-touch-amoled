@@ -70,7 +70,7 @@ Premium ESP32-S3 AMOLED AI smartwatch firmware
 - Required libraries list
 - Configuration guide
 - Troubleshooting notes
-- Future update access, if you want to offer that
+- Future update access, if you want to offer that text me on instagram (www.instagram.com/tsixom)
 
 ## Supported Hardware
 https://www.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-2.06
