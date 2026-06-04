@@ -1,8 +1,7 @@
 # TsixomAIWatch Buddy v1.0 & v2.0
 
 > **Premium ESP32-S3 AMOLED AI Smartwatch Firmware**  
-> Voice → Transcript → AI Reply Flow
-
+>  [Get v2 here](https://ko-fi.com/s/7e4864a32d) ☕
 ---
 
 ## Preview
@@ -87,8 +86,8 @@
 
 ---
 
-## Buy the Firmware
-[Get it on Ko-fi](https://ko-fi.com/s/7e4864a32d) ☕  
+## Support me
+[Get it on Ko-fi](https://ko-fi.com/tsixom) ☕  
 
 **Why You’ll Love It:**
 - AI smartwatch **ready-to-go**  
