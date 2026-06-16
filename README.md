@@ -1,7 +1,7 @@
 # TsixomAIWatch Buddy v1.0 & v2.0
 
 # Get V2 here
->  (https://ko-fi.com/s/7e4864a32d) ☕
+>  (https://instagram.com/tsixom) -contact personally
 ---
 
 ## Preview
@@ -87,7 +87,7 @@
 ---
 
 ## Support me
-[Get it on Ko-fi](https://ko-fi.com/tsixom) ☕  
+...  
 
 **Why You’ll Love It:**
 - AI smartwatch **ready-to-go**  
