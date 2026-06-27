@@ -1,106 +1,257 @@
-# TsixomAIWatch Buddy v1.0 & v2.0
+```markdown
+# ⌚ TsixomAIWatch Buddy
 
-# Get V2 here
->  (https://www.patreon.com/tsixom/posts/tsixomaiwatch-v2-162243855?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) - Buy From Here
->  (https://instagram.com/tsixom) -contact personally for help
----
+> AI-powered smartwatch firmware for the **Waveshare ESP32-S3 Touch AMOLED 2.06"**, featuring voice interaction, cloud AI, a custom graphics engine, and advanced power management.
 
-## Preview
-![Watch UI](assets/qkerj3a5024h1.png)
-
----
-
-## Key Features
-
-- **Custom no-LVGL AMOLED UI** – fast, smooth, developer-friendly  
-- **Voice recording + STT** – Deepgram + AssemblyAI fallback  
-- **OpenRouter AI Chat** – Smart / Fast / Creative modes  
-- **WiFi Setup Portal** – Save up to **3 networks with fallback**  
-- **Full-screen touch keyboard**  
-- **Themes & brightness control** – battery-friendly  
-- **Battery saver & screen sleep**  
-- **Live progress & debug screens**  
-- **Memory & diagnostics tools**  
+![GitHub](https://img.shields.io/badge/Platform-ESP32--S3-blue)
+![Arduino](https://img.shields.io/badge/Framework-Arduino-green)
+![License](https://img.shields.io/badge/License-Personal%20Use-red)
+![Version](https://img.shields.io/badge/Version-v2.0-orange)
 
 ---
 
-## Demo
+# ⭐ Get Version 2
 
-### Animated Clock
-![Watch UI](assets/14934.gif)
+👉 **Patreon**
+https://www.patreon.com/tsixom/posts/tsixomaiwatch-v2-162243855?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link
 
-### Settings Page
-![Watch UI](assets/14935.gif)
+📩 **Need help or a custom build?**
 
-### Soft Paper Theme
-![Watch UI](assets/14936.gif)
-
-### AI Feature
-![Watch UI](assets/14937.gif)
-
-### Theme Selection
-![Watch UI](assets/14938.gif)
+Instagram:
+https://instagram.com/tsixom
 
 ---
 
-## What’s New in v2.0?
+# Preview
 
-| **Area**              | **v1.0**                                         | **v2.0 Upgrade**                                                                 |
-| --------------------- | ----------------------------------------------- | ------------------------------------------------------------------------------- |
-| **Display Rendering**  | Direct drawing – flickering issues             | PSRAM canvas / double-buffer – **zero flickering**                               |
-| **Brightness**         | Software scaling RGB                           | Hardware brightness via CO5300 – **stable themes + improved battery life**      |
-| **Clock / Time**       | No real-time clock                             | NTP sync, timezone support, 12/24h format, **saved time backup**                |
-| **Hardware RTC**       | Not present                                   | PCF85063 RTC – keeps time across sleep/reboot                                   |
-| **Power Management**   | Basic screen sleep & WiFi saver               | Screen sleep, light sleep, deep sleep, auto deep sleep, **manual sleep options**|
-| **Wake Behavior**      | BOOT button only                               | PWR + BOOT deep wake, **triple-tap screen wake**                                 |
-| **Touch System**       | Basic debounce / held-touch                    | Reliable gesture system – tap/swipe detection, **release timeout**               |
-| **Settings Pages**     | Voice, AI, Display, WiFi, Debug, About        | Adds Time & Power settings, scrollable settings home                             |
-| **Home Screen**        | Buddy/home only                               | Morphable Buddy → **large clock view**                                           |
-| **Telemetry**          | Battery/heap/WiFi read live                   | Cached UI telemetry → smoother redraw, less stutter                               |
-| **Debug/About UI**     | Raw diagnostics                               | Cleaner About page, diagnostics moved into Debug                                  |
+<p align="center">
+<img src="assets/qkerj3a5024h1.png" width="350">
+</p>
 
 ---
 
-## What You Get on Ko-fi
-- Full **Arduino source code**  
-- Step-by-step **setup instructions**  
-- Complete **library list**  
-- **Configuration guide**  
-- Troubleshooting tips  
-- Future update access  
-- **Contact me on Instagram** for custom requests: [www.instagram.com/tsixom](https://www.instagram.com/tsixom)
+# Features
+
+## 🎨 Custom Graphics Engine
+
+- No LVGL
+- Fast direct rendering
+- Smooth AMOLED animations
+- Double-buffered canvas (v2)
+- Zero flickering
+- Optimized redraw system
 
 ---
 
-## Supported Hardware
-- [ESP32-S3 Touch AMOLED 2.06](https://www.waveshare.com/wiki/ESP32-S3-Touch-AMOLED-2.06)
+## 🤖 AI Assistant
+
+- Voice recording
+- Speech-to-Text
+- OpenRouter AI Chat
+- Smart Mode
+- Fast Mode
+- Creative Mode
+
+Supported providers:
+
+- Deepgram
+- AssemblyAI (automatic fallback)
 
 ---
 
-## Required Cloud Services
-- OpenRouter AI  
-- Deepgram  
-- AssemblyAI  
+## 🌐 Connectivity
 
-> **Note:** You need your own API keys. Internet connection is required for AI/STT.  
-> Firmware is **developer-grade**, not a medical or safety device.
-
----
-
-## Support me
-...  
-
-**Why You’ll Love It:**
-- AI smartwatch **ready-to-go**  
-- Smooth AMOLED UI & animations  
-- Full developer access to source  
-- Easy integration with AI/STT services  
+- WiFi setup portal
+- Store up to **3 WiFi networks**
+- Automatic fallback
+- Internet connectivity status
 
 ---
 
-## License / Usage
-- **Personal use only**  
-- **No resale or redistribution**  
-- Developer-friendly **open source firmware**  
+## ⌨ User Interface
+
+- Full-screen touch keyboard
+- Multiple themes
+- Adjustable brightness
+- Animated menus
+- Live progress screens
+- Debug utilities
 
 ---
+
+## 🔋 Power Management
+
+- Screen sleep
+- WiFi power saving
+- Light Sleep
+- Deep Sleep
+- Auto Deep Sleep
+- Triple-tap wake
+- PWR & BOOT wake
+
+---
+
+# Demo
+
+## Animated Clock
+
+![](assets/14934.gif)
+
+---
+
+## Settings
+
+![](assets/14935.gif)
+
+---
+
+## Soft Paper Theme
+
+![](assets/14936.gif)
+
+---
+
+## AI Chat
+
+![](assets/14937.gif)
+
+---
+
+## Theme Selection
+
+![](assets/14938.gif)
+
+---
+
+# What's New in Version 2
+
+| Feature | Version 1 | Version 2 |
+|----------|-----------|-----------|
+| Display | Direct rendering | PSRAM canvas + double buffering |
+| Flickering | Present | Completely removed |
+| Brightness | Software RGB scaling | Hardware CO5300 brightness |
+| Clock | None | NTP synchronization |
+| Time Backup | None | Persistent saved time |
+| Hardware RTC | — | PCF85063 support |
+| Sleep Modes | Basic | Light, Deep & Auto Deep Sleep |
+| Wake | BOOT only | PWR + BOOT + Triple Tap |
+| Touch | Basic | Improved gesture engine |
+| Home Screen | Buddy only | Buddy + Large Clock |
+| Settings | Basic | Time & Power settings |
+| Telemetry | Live reads | Cached rendering |
+| Debug UI | Mixed | Cleaner diagnostics |
+
+---
+
+# Hardware
+
+Currently supported:
+
+- Waveshare ESP32-S3 Touch AMOLED 2.06"
+
+---
+
+# Cloud Services
+
+You'll need your own API keys for:
+
+- OpenRouter
+- Deepgram
+- AssemblyAI
+
+Internet connection is required for AI features.
+
+---
+
+# Repository Contents
+
+```
+
+Firmware/
+Libraries/
+Assets/
+Configuration/
+Documentation/
+
+```
+
+---
+
+# What You Receive
+
+After purchasing, you'll get:
+
+- Complete Arduino source code
+- Configuration guide
+- Library list
+- Setup instructions
+- Troubleshooting guide
+- Future updates
+- Direct support via Instagram
+
+---
+
+# Installation
+
+1. Install Arduino IDE.
+2. Install ESP32 board package.
+3. Install required libraries.
+4. Configure your API keys.
+5. Select the correct board.
+6. Compile and upload.
+
+Detailed instructions are included with the firmware.
+
+---
+
+# Requirements
+
+- Waveshare ESP32-S3 Touch AMOLED 2.06"
+- WiFi connection
+- OpenRouter API key
+- Deepgram API key
+- AssemblyAI API key
+
+---
+
+# Disclaimer
+
+This firmware is intended for educational and development purposes.
+
+It is **not** a medical device or a safety-critical system.
+
+---
+
+# License
+
+This firmware is licensed for **personal use only**.
+
+You may:
+
+- Use it on your own device
+- Modify it for personal projects
+
+You may **not**:
+
+- Redistribute
+- Resell
+- Reupload
+- Share source code publicly
+
+---
+
+# Support
+
+Questions, bug reports, or custom firmware requests?
+
+📩 Instagram:
+https://instagram.com/tsixom
+
+---
+
+# If you like this project
+
+⭐ Star the repository
+
+❤️ Support future development on Patreon
+```
