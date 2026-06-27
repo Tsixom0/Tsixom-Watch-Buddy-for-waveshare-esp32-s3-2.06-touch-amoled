@@ -27,7 +27,7 @@
 
 ## Features
 
-### 🎨 Custom Graphics Engine
+###  Custom Graphics Engine
 - No LVGL
 - Fast direct rendering
 - Smooth AMOLED animations
@@ -35,7 +35,7 @@
 - Zero flickering
 - Optimized redraw system
 
-### 🤖 AI Assistant
+###  AI Assistant
 - Voice recording
 - Speech-to-text
 - OpenRouter AI chat
@@ -47,13 +47,13 @@
 - Deepgram
 - AssemblyAI (automatic fallback)
 
-### 🌐 Connectivity
+###  Connectivity
 - Wi-Fi setup portal
 - Store up to **3 Wi-Fi networks**
 - Automatic fallback
 - Internet connectivity status
 
-### ⌨️ User Interface
+###  User Interface
 - Full-screen touch keyboard
 - Multiple themes
 - Adjustable brightness
@@ -61,7 +61,7 @@
 - Live progress screens
 - Debug utilities
 
-### 🔋 Power Management
+###  Power Management
 - Screen sleep
 - Wi-Fi power saving
 - Light sleep
