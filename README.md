@@ -1,75 +1,59 @@
-```markdown
 # ⌚ TsixomAIWatch Buddy
 
 > AI-powered smartwatch firmware for the **Waveshare ESP32-S3 Touch AMOLED 2.06"**, featuring voice interaction, cloud AI, a custom graphics engine, and advanced power management.
 
-![GitHub](https://img.shields.io/badge/Platform-ESP32--S3-blue)
-![Arduino](https://img.shields.io/badge/Framework-Arduino-green)
-![License](https://img.shields.io/badge/License-Personal%20Use-red)
-![Version](https://img.shields.io/badge/Version-v2.0-orange)
-
----
-
-# ⭐ Get Version 2
-
-👉 **Patreon**
-https://www.patreon.com/tsixom/posts/tsixomaiwatch-v2-162243855?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link
-
-📩 **Need help or a custom build?**
-
-Instagram:
-https://instagram.com/tsixom
-
----
-
-# Preview
+<p align="center">
+  <img src="https://img.shields.io/badge/Platform-ESP32--S3-blue" alt="Platform">
+  <img src="https://img.shields.io/badge/Framework-Arduino-green" alt="Framework">
+  <img src="https://img.shields.io/badge/License-Personal%20Use-red" alt="License">
+  <img src="https://img.shields.io/badge/Version-v2.0-orange" alt="Version">
+</p>
 
 <p align="center">
-<img src="assets/qkerj3a5024h1.png" width="350">
+  <a href="https://www.patreon.com/tsixom/posts/tsixomaiwatch-v2-162243855?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link">
+    <strong>⭐ Get Version 2 on Patreon</strong>
+  </a>
 </p>
 
 ---
 
-# Features
+## Preview
 
-## 🎨 Custom Graphics Engine
-
-- No LVGL
-- Fast direct rendering
-- Smooth AMOLED animations
-- Double-buffered canvas (v2)
-- Zero flickering
-- Optimized redraw system
+<p align="center">
+  <img src="assets/qkerj3a5024h1.png" width="350" alt="TsixomAIWatch Buddy Preview">
+</p>
 
 ---
 
-## 🤖 AI Assistant
+## Features
 
+### 🎨 Custom Graphics Engine
+- No LVGL
+- Fast direct rendering
+- Smooth AMOLED animations
+- Double-buffered canvas in v2
+- Zero flickering
+- Optimized redraw system
+
+### 🤖 AI Assistant
 - Voice recording
-- Speech-to-Text
-- OpenRouter AI Chat
+- Speech-to-text
+- OpenRouter AI chat
 - Smart Mode
 - Fast Mode
 - Creative Mode
 
-Supported providers:
-
+**Supported speech providers:**
 - Deepgram
 - AssemblyAI (automatic fallback)
 
----
-
-## 🌐 Connectivity
-
-- WiFi setup portal
-- Store up to **3 WiFi networks**
+### 🌐 Connectivity
+- Wi-Fi setup portal
+- Store up to **3 Wi-Fi networks**
 - Automatic fallback
 - Internet connectivity status
 
----
-
-## ⌨ User Interface
-
+### ⌨️ User Interface
 - Full-screen touch keyboard
 - Multiple themes
 - Adjustable brightness
@@ -77,56 +61,40 @@ Supported providers:
 - Live progress screens
 - Debug utilities
 
----
-
-## 🔋 Power Management
-
+### 🔋 Power Management
 - Screen sleep
-- WiFi power saving
-- Light Sleep
-- Deep Sleep
-- Auto Deep Sleep
+- Wi-Fi power saving
+- Light sleep
+- Deep sleep
+- Auto deep sleep
 - Triple-tap wake
-- PWR & BOOT wake
+- PWR and BOOT wake
 
 ---
 
-# Demo
+## Demo
 
-## Animated Clock
+### Animated Clock
+![Animated Clock](assets/14934.gif)
 
-![](assets/14934.gif)
+### Settings
+![Settings](assets/14935.gif)
 
----
+### Soft Paper Theme
+![Soft Paper Theme](assets/14936.gif)
 
-## Settings
+### AI Chat
+![AI Chat](assets/14937.gif)
 
-![](assets/14935.gif)
-
----
-
-## Soft Paper Theme
-
-![](assets/14936.gif)
-
----
-
-## AI Chat
-
-![](assets/14937.gif)
+### Theme Selection
+![Theme Selection](assets/14938.gif)
 
 ---
 
-## Theme Selection
-
-![](assets/14938.gif)
-
----
-
-# What's New in Version 2
+## What’s New in Version 2
 
 | Feature | Version 1 | Version 2 |
-|----------|-----------|-----------|
+|--------|-----------|-----------|
 | Display | Direct rendering | PSRAM canvas + double buffering |
 | Flickering | Present | Completely removed |
 | Brightness | Software RGB scaling | Hardware CO5300 brightness |
@@ -143,44 +111,39 @@ Supported providers:
 
 ---
 
-# Hardware
+## Supported Hardware
 
 Currently supported:
-
-- Waveshare ESP32-S3 Touch AMOLED 2.06"
+- **Waveshare ESP32-S3 Touch AMOLED 2.06"**
 
 ---
 
-# Cloud Services
+## Cloud Services
 
-You'll need your own API keys for:
-
+You’ll need your own API keys for:
 - OpenRouter
 - Deepgram
 - AssemblyAI
 
-Internet connection is required for AI features.
+> Internet access is required for AI features.
 
 ---
 
-# Repository Contents
+## Repository Contents
 
-```
-
+```text
 Firmware/
 Libraries/
 Assets/
 Configuration/
 Documentation/
-
 ```
 
 ---
 
-# What You Receive
+## What You Receive
 
-After purchasing, you'll get:
-
+After purchasing, you’ll receive:
 - Complete Arduino source code
 - Configuration guide
 - Library list
@@ -191,30 +154,30 @@ After purchasing, you'll get:
 
 ---
 
-# Installation
+## Installation
 
 1. Install Arduino IDE.
-2. Install ESP32 board package.
-3. Install required libraries.
+2. Install the ESP32 board package.
+3. Install the required libraries.
 4. Configure your API keys.
 5. Select the correct board.
 6. Compile and upload.
 
-Detailed instructions are included with the firmware.
+> Detailed instructions are included with the firmware.
 
 ---
 
-# Requirements
+## Requirements
 
 - Waveshare ESP32-S3 Touch AMOLED 2.06"
-- WiFi connection
+- Wi-Fi connection
 - OpenRouter API key
 - Deepgram API key
 - AssemblyAI API key
 
 ---
 
-# Disclaimer
+## Disclaimer
 
 This firmware is intended for educational and development purposes.
 
@@ -222,36 +185,31 @@ It is **not** a medical device or a safety-critical system.
 
 ---
 
-# License
+## License
 
 This firmware is licensed for **personal use only**.
 
 You may:
-
 - Use it on your own device
 - Modify it for personal projects
 
 You may **not**:
-
 - Redistribute
 - Resell
 - Reupload
-- Share source code publicly
+- Share the source code publicly
 
 ---
 
-# Support
+## Support
 
 Questions, bug reports, or custom firmware requests?
 
-📩 Instagram:
-https://instagram.com/tsixom
+📩 Instagram: https://instagram.com/tsixom
 
 ---
 
-# If you like this project
+## If You Like This Project
 
-⭐ Star the repository
-
-❤️ Support future development on Patreon
-```
+- ⭐ Star the repository
+- ❤️ Support future development on Patreon
