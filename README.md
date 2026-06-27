@@ -1,7 +1,8 @@
 # TsixomAIWatch Buddy v1.0 & v2.0
 
 # Get V2 here
->  (https://instagram.com/tsixom) -contact personally
+>  (https://www.patreon.com/tsixom/posts/tsixomaiwatch-v2-162243855?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=postshare_creator&utm_content=join_link) - Buy From Here
+>  (https://instagram.com/tsixom) -contact personally for help
 ---
 
 ## Preview
